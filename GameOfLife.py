@@ -1,3 +1,5 @@
+#!/bin/python
+#-*-- coding: utf-8 -*-
 import curses
 
 
@@ -94,7 +96,7 @@ def transition(space, width=20, height=20):
 
 
 if __name__ == "__main__":
-    # Cellules vivantes
+    # Cell
     u = ((8, 8), (8, 19), (9, 8), (9, 10), (10, 8), (10, 9), (10, 10))
 
     win = init_curses()
